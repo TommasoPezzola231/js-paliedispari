@@ -7,8 +7,8 @@ function parolaPalindroma(parolaUtente) {
         parolaAlContrario += parolaUtente[i]
         
     }
-
-    console.log(parolaAlContrario)
+    parolaUtente = parolaUtente.toLowerCase();
+    parolaAlContrario = parolaAlContrario.toLowerCase();
 
     if (parolaUtente == parolaAlContrario) {     
         alert("La parola è palindroma!")
