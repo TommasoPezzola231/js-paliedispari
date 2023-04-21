@@ -27,6 +27,7 @@ let parolaDaVerificare = parolaPalindroma(prompt("Inserisci una parola"));
 function PariOrDispari(numeroUtente) {
     
     let numeroComputer = Math.floor(Math.random() * 5) + 1;
+    alert(`Io scelgo ${numeroComputer}`)
 
     let numeroVerifica = numeroComputer + numeroUtente;
 
